@@ -1,0 +1,3 @@
+R5T.L0017.Construction - Construction project for Microsoft.Extensions.Logging related Nuget packages selector..
+
+GOALS:
