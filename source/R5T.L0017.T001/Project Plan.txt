@@ -1,0 +1,3 @@
+R5T.L0017.T001 - Synchronous console logger implementation.
+
+GOALS:
