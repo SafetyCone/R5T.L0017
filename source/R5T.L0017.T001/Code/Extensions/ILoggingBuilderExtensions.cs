@@ -16,6 +16,7 @@ namespace R5T.L0017.T001
             loggingBuilder.AddConfiguration();
 
             loggingBuilder.Services.TryAddEnumerable(ServiceDescriptor.Singleton<ILoggerProvider, ConsoleLoggerProvider>());
+            
             LoggerProviderOptions.RegisterProviderOptions<ConsoleLoggerOptions, ConsoleLoggerProvider>(loggingBuilder.Services);
 
             return loggingBuilder;
