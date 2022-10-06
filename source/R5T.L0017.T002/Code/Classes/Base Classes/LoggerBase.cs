@@ -49,7 +49,7 @@ namespace R5T.L0017.T002
 
             var message = formatter(state, exception);
 
-            if (StringHelper.IsNotNullOrEmpty(message) || exception is object)
+            if (StringHelper.IsNotNullOrEmpty(message) || exception is not null)
             {
                 this.WriteMessage(logLevel, CategoryName, eventId.Id, message, exception);
             }
