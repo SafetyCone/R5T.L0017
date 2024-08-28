@@ -15,6 +15,7 @@ namespace R5T.L0017.T002
         protected string CategoryName { get; }
 
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0290:Use primary constructor", Justification = "<Pending>")]
         protected LoggerBase(
             string categoryName)
         {
